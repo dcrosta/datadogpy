@@ -15,9 +15,9 @@ import os.path
 from datadog import api
 from datadog.dogstatsd import statsd
 from datadog.threadstats import ThreadStats  # noqa
-from datadog.util.hostname import get_hostname
 from datadog.util.compat import iteritems
 from datadog.util.config import get_version
+from datadog.util.hostname import get_hostname
 
 
 __version__ = get_version()
